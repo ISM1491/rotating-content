@@ -52,7 +52,7 @@ body{
     max-width:960px;
     width:960px;
     justify-content: space-between;
-    padding: 20px;
+    /* padding: 20px; */
     margin-top: 20px;
 }
 .slider_box_perspective{

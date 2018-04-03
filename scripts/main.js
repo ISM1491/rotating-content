@@ -31,15 +31,15 @@
 //         });
 //     })
 // }
+function makeDeg() {
+  var currentDeg = 0;
 
+  return function() {
+    return (currentDeg += 90);
+  };
+}
 function Rotator(obj_1){
-  function makeDeg() {
-    var currentDeg = 0;
-  
-    return function() {
-      return (currentDeg += 90);
-    };
-  }
+
   var new_deg=[];
   for(let i=0;i<obj_1["box"].length;i++){
     new_deg[i]= makeDeg();

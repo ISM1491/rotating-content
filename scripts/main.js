@@ -214,23 +214,7 @@ function Rotator(obj_1) {
   return this;
 }
 
-/* Функция вращения */
-/* jQuery.fn.rotate = function(degrees, f) {
-  var loc_deg = degrees - 90;
-  var steps = 18;
-  var callback = f || function() {};
-  var that = this;
-  var timer = setInterval(function() {
-    loc_deg = loc_deg + 5;
-    that.css({ transform: "rotateY(" + loc_deg + "deg)" });
-    steps--;
-    if (steps === 0) {
-      clearInterval(timer);
-      callback();
-    }
-  }, 20);
-  return $(this);
-}; */
+
 user_object = {
   button_next: "#next_slide_btn",
   button_prev: "#prev_slide_btn",
